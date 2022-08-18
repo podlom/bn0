@@ -1,0 +1,2 @@
+# ignore phpStorm IDE settings folder
+.idea/*
