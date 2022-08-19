@@ -53,9 +53,14 @@ class banner
 
             case 'uk':
                 $banners = [
-                    '<a href="https://www.shkodenko.com/">блог розробника Тараса Шкоденко</a>',
-                    '<a href="https://ip.shkodenko.com/">ваша IP адреса</a>',
-                    '<a href="https://rndpwd.info/">безпечний генератор випадкових паролей</a>',
+                    '<a href="https://www.shkodenko.com/?ref=bn0">блог розробника Тараса Шкоденко</a>',
+                    '<a href="https://shkodenko.com.ua/tech.html#cert&ref=bn0">сертифікати розробника Тараса Шкоденко</a>',
+                    '<a href="https://shkodenko.com.ua/tech.html#cert&ref=bn0">сертифікована розробника сайтів від Тараса Шкоденко</a>',
+                    '<a href="https://shkodenko.com.ua/tech.html#cert&ref=bn0">програмування та розробника сайтів від Тараса Шкоденко</a>',
+                    '<a href="https://shkodenko.com.ua/tech.html#cert&ref=bn0">програмування та розробника сайтів від сертифікованого розробника</a>',
+                    '<a href="https://shkodenko.com.ua/tech.html#cert&ref=bn0">програмування та розробника сайтів від профі</a>',
+                    '<a href="https://ip.shkodenko.com/?ref=bn0">ваша IP адреса</a>',
+                    '<a href="https://rndpwd.info/?&ref=bn0">безпечний генератор випадкових паролей</a>',
                     '<a href="http://www.weblancer.net/?affiliate=sh_taras">www.weblancer.net - чудовий ресурс для підроботки та фрилансу</a>',
                     '<a href="http://www.weblancer.net/users/sh_taras/?affiliate=sh_taras">дивіться мій профіль на сайті www.weblancer.net</a>',
                     '<a href="http://www.weblancer.net/users/sh_taras/portfolio/?affiliate=sh_taras">дивіться моє портфоліо на сайті www.weblancer.net</a>',
@@ -77,8 +82,11 @@ class banner
             case 'ru':
             default:
                 $banners = [
-                    '<a href="https://www.shkodenko.com/">блог разработчика Тараса Шкоденко</a>',
-                    '<a href="https://rndpwd.info/">сервис генерации безопасных паролей</a>',
+                    '<a href="https://shkodenko.com.ua/tech.html#cert&ref=bn0">программирование и разработка сайтов от Тараса Шкоденко</a>',
+                    '<a href="https://shkodenko.com.ua/tech.html#cert&ref=bn0">программирование и разработка сайтов от сертифицированного разработчика</a>',
+                    '<a href="https://shkodenko.com.ua/tech.html#cert&ref=bn0">программирование и разработка сайтов от профессионала</a>',
+                    '<a href="https://www.shkodenko.com/?&ref=bn0">блог разработчика Тараса Шкоденко</a>',
+                    '<a href="https://rndpwd.info/?&ref=bn0">сервис генерации безопасных паролей</a>',
                     '<a href="https://ip.shkodenko.com/ru/%d0%b2%d0%b0%d1%88-ip-%d0%b0%d0%b4%d1%80%d0%b5%d1%81-%d1%80%d1%83%d1%81%d1%81%d0%ba%d0%b8%d0%b9/">узнать ваш IP адрес</a>',
                     '<a href="https://www.shkodenko.com.ua/?ref=bn0">программирование и разработка сайтов, Киев</a>',
                     '<a href="https://www.shkodenko.com.ua/?ref=bn0">программирование и разработка сайтов, в Украине</a>',
