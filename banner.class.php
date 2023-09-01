@@ -4,7 +4,7 @@
  * User: Тарас
  * Date: 20.12.2016
  * Time: 15:24
- * Updated: 2023-08-30 15:32
+ * Updated: 2023-09-01 13:10
  */
 
 namespace app;
@@ -44,11 +44,12 @@ class banner
         switch ($this->lang) {
             case 'en':
                 $banners = [
+                    '<a href="https://recipes.shkodenko.com/en/?ref=' . self::REF_NAME . '">best cooking recipes - blog about healthy food and cooking</a>',
                     '<a href="https://www.digitalocean.com/?refcode=cfcb074144ad&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg" alt="DigitalOcean Referral Badge" /></a>',
                     '<a href="https://www.digitalocean.com/?refcode=cfcb074144ad&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a>',
                     '<a href="https://www.digitalocean.com/?refcode=cfcb074144ad&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%202.svg" alt="DigitalOcean Referral Badge" /></a>',
-                    '<a href="http://go.shkodenko.com.ua/to/4" target="_blank" class="p-2 rounded-lg">Buy Me a Coffee ☕</a>',
-                    '<a href="http://go.shkodenko.com.ua/to/3" target="_blank" class="p-2 rounded-lg">Support me on a Patreon ☕</a>',
+                    '<a href="//go.shkodenko.com.ua/to/4" target="_blank" class="p-2 rounded-lg">Buy Me a Coffee ☕</a>',
+                    '<a href="//go.shkodenko.com.ua/to/3" target="_blank" class="p-2 rounded-lg">Support me on a Patreon ☕</a>',
                     '<a href="https://ko-fi.com/shtaras" target="_blank" class="p-2 rounded-lg">Buy Me a Coffee ☕</a>',
                     '<a href="https://www.shkodenko.com/">web development blog</a>',
                     '<a href="https://ip.shkodenko.com/en/your-ip-address/">get your IP address</a>',
@@ -66,11 +67,12 @@ class banner
 
             case 'uk':
                 $banners = [
+                    '<a href="https://recipes.shkodenko.com/?ref=' . self::REF_NAME . '">best cooking recipes - блог про здорову їжу та її приготування</a>',
                     '<a href="https://www.digitalocean.com/?refcode=cfcb074144ad&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg" alt="DigitalOcean Referral Badge" /></a>',
                     '<a href="https://www.digitalocean.com/?refcode=cfcb074144ad&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a>',
                     '<a href="https://www.digitalocean.com/?refcode=cfcb074144ad&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%202.svg" alt="DigitalOcean Referral Badge" /></a>',
-                    '<a href="http://go.shkodenko.com.ua/to/4" target="_blank" class="p-2 rounded-lg">Пригостіть мене кавою ☕</a>',
-                    '<a href="http://go.shkodenko.com.ua/to/3" target="_blank" class="p-2 rounded-lg">Підтримуйте мене на Patreon ☕</a>',
+                    '<a href="//go.shkodenko.com.ua/to/4" target="_blank" class="p-2 rounded-lg">Пригостіть мене кавою ☕</a>',
+                    '<a href="//go.shkodenko.com.ua/to/3" target="_blank" class="p-2 rounded-lg">Підтримуйте мене на Patreon ☕</a>',
                     '<a href="https://ko-fi.com/shtaras" target="_blank" class="p-2 rounded-lg">Пригостіть мене кавою ☕</a>',
                     '<a href="https://www.shkodenko.com/?ref=' . self::REF_NAME . '">блог розробника Тараса Шкоденко</a>',
                     '<a href="https://shkodenko.com.ua/tech.html#cert&ref=' . self::REF_NAME . '">сертифікати розробника Тараса Шкоденко</a>',
@@ -104,8 +106,8 @@ class banner
                     '<a href="https://www.digitalocean.com/?refcode=cfcb074144ad&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg" alt="DigitalOcean Referral Badge" /></a>',
                     '<a href="https://www.digitalocean.com/?refcode=cfcb074144ad&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a>',
                     '<a href="https://www.digitalocean.com/?refcode=cfcb074144ad&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%202.svg" alt="DigitalOcean Referral Badge" /></a>',
-                    '<a href="http://go.shkodenko.com.ua/to/4" target="_blank" class="p-2 rounded-lg">Угостите меня кофе ☕</a>',
-                    '<a href="http://go.shkodenko.com.ua/to/3" target="_blank" class="p-2 rounded-lg">Поддержите меня на Patreon ☕</a>',
+                    '<a href="//go.shkodenko.com.ua/to/4" target="_blank" class="p-2 rounded-lg">Угостите меня кофе ☕</a>',
+                    '<a href="//go.shkodenko.com.ua/to/3" target="_blank" class="p-2 rounded-lg">Поддержите меня на Patreon ☕</a>',
                     '<a href="https://ko-fi.com/shtaras" target="_blank" class="p-2 rounded-lg">Угостите меня кофе ☕</a>',
                     '<a href="https://shkodenko.com.ua/tech.html#cert&ref=' . self::REF_NAME . '">программирование и разработка сайтов от Тараса Шкоденко</a>',
                     '<a href="https://shkodenko.com.ua/tech.html#cert&ref=' . self::REF_NAME . '">программирование и разработка сайтов от сертифицированного разработчика</a>',
