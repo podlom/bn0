@@ -4,7 +4,7 @@
  * User: Тарас
  * Date: 20.12.2016
  * Time: 15:24
- * Updated: 2023-09-01 13:10
+ * Updated: 2023-09-01 13:25
  */
 
 namespace app;
@@ -75,11 +75,11 @@ class banner
                     '<a href="//go.shkodenko.com.ua/to/3" target="_blank" class="p-2 rounded-lg">Підтримуйте мене на Patreon ☕</a>',
                     '<a href="https://ko-fi.com/shtaras" target="_blank" class="p-2 rounded-lg">Пригостіть мене кавою ☕</a>',
                     '<a href="https://www.shkodenko.com/?ref=' . self::REF_NAME . '">блог розробника Тараса Шкоденко</a>',
-                    '<a href="https://shkodenko.com.ua/tech.html#cert&ref=' . self::REF_NAME . '">сертифікати розробника Тараса Шкоденко</a>',
-                    '<a href="https://shkodenko.com.ua/tech.html#cert&ref=' . self::REF_NAME . '">сертифікована розробника сайтів від Тараса Шкоденко</a>',
-                    '<a href="https://shkodenko.com.ua/tech.html#cert&ref=' . self::REF_NAME . '">програмування та розробника сайтів від Тараса Шкоденко</a>',
-                    '<a href="https://shkodenko.com.ua/tech.html#cert&ref=' . self::REF_NAME . '">програмування та розробника сайтів від сертифікованого розробника</a>',
-                    '<a href="https://shkodenko.com.ua/tech.html#cert&ref=' . self::REF_NAME . '">програмування та розробника сайтів від профі</a>',
+                    '<a href="https://shkodenko.com.ua/tech.html?ref=' . self::REF_NAME . '#cert">сертифікати розробника Тараса Шкоденко</a>',
+                    '<a href="https://shkodenko.com.ua/tech.html?ref=' . self::REF_NAME . '#cert">сертифікована розробника сайтів від Тараса Шкоденко</a>',
+                    '<a href="https://shkodenko.com.ua/tech.html?ref=' . self::REF_NAME . '#cert">програмування та розробника сайтів від Тараса Шкоденко</a>',
+                    '<a href="https://shkodenko.com.ua/tech.html?ref=' . self::REF_NAME . '#cert">програмування та розробника сайтів від сертифікованого розробника</a>',
+                    '<a href="https://shkodenko.com.ua/tech.html?ref=' . self::REF_NAME . '#cert">програмування та розробника сайтів від профі</a>',
                     '<a href="https://ip.shkodenko.com/?ref=' . self::REF_NAME . '">ваша IP адреса</a>',
                     '<a href="https://rndpwd.info/?&ref=' . self::REF_NAME . '">безпечний генератор випадкових паролей</a>',
                     '<a href="http://www.weblancer.net/?affiliate=sh_taras">www.weblancer.net - чудовий ресурс для підроботки та фрилансу</a>',
