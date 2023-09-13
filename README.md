@@ -1,3 +1,3 @@
 # Display HTML banners service
 
-Usage: /index.php?lang=ru|en|uk
+Usage: /index.php?lang=ru|en|uk[&num=0]
