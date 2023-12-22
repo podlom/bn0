@@ -18,12 +18,12 @@ class banner
     private $validLang = ['ru', 'en', 'uk'];
     private $num = null;
 
-    public function __construct($lang = 'uk', $num = null)
+    public function __construct($lang = 'ru', $num = null)
     {
         if (in_array($lang, $this->validLang)) {
             $this->lang = $lang;
         } else {
-            $this->lang = 'uk';
+            $this->lang = 'ru';
         }
         if (!is_null($num)) {
             $this->num = $num;
