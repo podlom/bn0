@@ -4,7 +4,7 @@
  * User: Тарас
  * Date: 20.12.2016
  * Time: 15:24
- * Updated: 2023-12-22 16:47
+ * Updated: 2023-12-22 17:12
  */
 
 namespace app;
@@ -18,12 +18,12 @@ class banner
     private $validLang = ['ru', 'en', 'uk'];
     private $num = null;
 
-    public function __construct($lang = 'ru', $num = null)
+    public function __construct($lang = 'uk', $num = null)
     {
         if (in_array($lang, $this->validLang)) {
             $this->lang = $lang;
         } else {
-            $this->lang = 'ru';
+            $this->lang = 'uk';
         }
         if (!is_null($num)) {
             $this->num = $num;
