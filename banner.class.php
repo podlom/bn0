@@ -4,7 +4,7 @@
  * User: Тарас
  * Date: 20.12.2016
  * Time: 15:24
- * Updated: 2023-12-15 17:05
+ * Updated: 2023-12-22 16:47
  */
 
 namespace app;
@@ -44,6 +44,8 @@ class banner
         switch ($this->lang) {
             case 'en':
                 $banners = [
+                    "<a href='https://ko-fi.com/L3L5LJ3TB' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>",
+
                     '<a href="https://festingervault.com/?ref=22853"><img decoding="async" src="https://festingervault.com/wp-content/uploads/2023/04/FESTINGER-BANNER-3-V2.gif" alt="" /></a>',
                     '<a href="https://festingervault.com/?ref=22853"><img decoding="async" src="https://festingervault.com/wp-content/uploads/2023/04/FESTINGER-BANNER-1-V2.gif" alt="" /></a>',
                     '<a href="https://festingervault.com/?ref=22853"><img decoding="async" src="https://festingervault.com/wp-content/uploads/2023/04/FESTINGER-BANNER-2-V2-1.gif" alt="" /></a>',
@@ -51,11 +53,14 @@ class banner
 
                     '<a href="https://t.me/phpdinos">Join PHPDinos - new Telegram channel for PHP web developers 🦕</a>',
                     '<a href="https://recipes.shkodenko.com/en/?ref=' . self::REF_NAME . '">best cooking recipes - blog about healthy food and cooking</a>',
+
                     '<a href="https://www.digitalocean.com/?refcode=cfcb074144ad&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg" alt="DigitalOcean Referral Badge" /></a>',
                     '<a href="https://www.digitalocean.com/?refcode=cfcb074144ad&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a>',
                     '<a href="https://www.digitalocean.com/?refcode=cfcb074144ad&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%202.svg" alt="DigitalOcean Referral Badge" /></a>',
+
                     '<a href="//go.shkodenko.com.ua/to/4" target="_blank" class="p-2 rounded-lg">Buy Me a Coffee ☕</a>',
                     '<a href="//go.shkodenko.com.ua/to/3" target="_blank" class="p-2 rounded-lg">Support me on a Patreon ☕</a>',
+
                     '<a href="https://ko-fi.com/shtaras" target="_blank" class="p-2 rounded-lg">Buy Me a Coffee ☕</a>',
                     '<a href="https://www.shkodenko.com/">web development blog</a>',
                     '<a href="https://ip.shkodenko.com/en/your-ip-address/">get your IP address</a>',
@@ -73,15 +78,20 @@ class banner
 
             case 'uk':
                 $banners = [
+                    "<a href='https://ko-fi.com/L3L5LJ3TB' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>",
+
                     '<a href="https://festingervault.com/?ref=22853"><img decoding="async" src="https://festingervault.com/wp-content/uploads/2023/04/FESTINGER-BANNER-3-V2.gif" alt="" /></a>',
                     '<a href="https://festingervault.com/?ref=22853"><img decoding="async" src="https://festingervault.com/wp-content/uploads/2023/04/FESTINGER-BANNER-1-V2.gif" alt="" /></a>',
                     '<a href="https://festingervault.com/?ref=22853"><img decoding="async" src="https://festingervault.com/wp-content/uploads/2023/04/FESTINGER-BANNER-2-V2-1.gif" alt="" /></a>',
                     '<a href="https://festingervault.com/?ref=22853"><img decoding="async" src="https://festingervault.com/wp-content/uploads/2021/02/Festinger-Animated-Banner-1-2.gif" alt="" /></a>',
+
                     '<a href="https://t.me/phpdinos">Доєднуйтесь до PHPDinos - нового Telegram каналу для PHP та web розробників 🦕</a>',
                     '<a href="https://recipes.shkodenko.com/?ref=' . self::REF_NAME . '">best cooking recipes - блог про здорову їжу та її приготування</a>',
+
                     '<a href="https://www.digitalocean.com/?refcode=cfcb074144ad&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg" alt="DigitalOcean Referral Badge" /></a>',
                     '<a href="https://www.digitalocean.com/?refcode=cfcb074144ad&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a>',
                     '<a href="https://www.digitalocean.com/?refcode=cfcb074144ad&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%202.svg" alt="DigitalOcean Referral Badge" /></a>',
+
                     '<a href="//go.shkodenko.com.ua/to/4" target="_blank" class="p-2 rounded-lg">Пригостіть мене кавою ☕</a>',
                     '<a href="//go.shkodenko.com.ua/to/3" target="_blank" class="p-2 rounded-lg">Підтримуйте мене на Patreon ☕</a>',
                     '<a href="https://ko-fi.com/shtaras" target="_blank" class="p-2 rounded-lg">Пригостіть мене кавою ☕</a>',
@@ -114,6 +124,8 @@ class banner
             case 'ru':
             default:
                 $banners = [
+                    "<a href='https://ko-fi.com/L3L5LJ3TB' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>",
+
                     '<a href="https://festingervault.com/?ref=22853"><img decoding="async" src="https://festingervault.com/wp-content/uploads/2023/04/FESTINGER-BANNER-3-V2.gif" alt="" /></a>',
                     '<a href="https://festingervault.com/?ref=22853"><img decoding="async" src="https://festingervault.com/wp-content/uploads/2023/04/FESTINGER-BANNER-1-V2.gif" alt="" /></a>',
                     '<a href="https://festingervault.com/?ref=22853"><img decoding="async" src="https://festingervault.com/wp-content/uploads/2023/04/FESTINGER-BANNER-2-V2-1.gif" alt="" /></a>',
