@@ -73,6 +73,9 @@ class banner
                     // '<a href="https://freelancehunt.com/r/ow4BA" target="_blank"><img alt="FreelanceHunt.com" src="https://freelancehunt.com/static/images/bonus/en/468/3.png" width="468" height="60"></a>',
                     // '<a href="https://freelancehunt.com/r/ow4BA" target="_blank"><img alt="FreelanceHunt.com" src="https://freelancehunt.com/static/images/bonus/en/468/5.png" width="468" height="60"></a>',
                     // '<a href="https://freelancehunt.com/r/ow4BA" target="_blank"><img alt="FreelanceHunt.com" src="https://freelancehunt.com/static/images/bonus/en/468/6.png" width="468" height="60"></a>',
+
+                    '<a href="//go.shkodenko.com/to/pmp" target="_blank">PHP Mentorship program</a>',
+                    '<a href="https://www.shkodenko.com/php-mentorship-program/?ref=' . self::REF_NAME . '" target="_blank">PHP Mentorship program</a>',
                 ];
                 break;
 
@@ -118,6 +121,9 @@ class banner
                     '<a href="https://blog.shkodenko.com.ua/?ref=' . self::REF_NAME . '">цікаві статті про розробку сайтів</a>',
                     '<a href="https://blog.shkodenko.com.ua/category/devops-uk/?ref=' . self::REF_NAME . '">цікаві статті для DevOps</a>',
                     '<a href="https://blog.shkodenko.com.ua/category/devops-uk/?ref=' . self::REF_NAME . '">адміністрування веб серверів та ОС Linux</a>',
+
+                    '<a href="//go.shkodenko.com/to/pmp" target="_blank">Менторська програма PHP</a>',
+                    '<a href="https://www.shkodenko.com/php-mentorship-program/?ref=' . self::REF_NAME . '" target="_blank">Менторська програма PHP</a>',
                 ];
                 break;
 
@@ -167,6 +173,9 @@ class banner
                     '<a href="https://blog.shkodenko.com.ua/ru/category/devops-ru/?ref=' . self::REF_NAME . '">всякие полезности для DevOps</a>',
                     '<a href="https://blog.shkodenko.com.ua/ru/category/devops-ru/?ref=' . self::REF_NAME . '">всякие полезности системному администратору</a>',
                     '<a href="https://blog.shkodenko.com.ua/ru/category/devops-ru/?ref=' . self::REF_NAME . '">настройка и администрирование ОС Linux</a>',
+
+                    '<a href="//go.shkodenko.com/to/pmp" target="_blank">Менторская программа PHP</a>',
+                    '<a href="https://www.shkodenko.com/php-mentorship-program/?ref=' . self::REF_NAME . '" target="_blank">Менторская программа PHP</a>',
                 ];
                 break;
         }
