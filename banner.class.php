@@ -87,6 +87,8 @@ class banner
                     '<a href="https://www.canva.com/join/wqv-tdh-kty">Signup to Canva</a>',
                     
                     '<a href="https://www.freelancer.com/u/podlom">Check Taras Shkodenko profile at Freelancer.com</a>',
+                    
+                    '<a href="https://www.upwork.com/freelancers/~01e05248f10699bf9d">Check Taras Shkodenko profile at Upwork.com</a>',
 
                 ];
                 break;
@@ -148,6 +150,8 @@ class banner
                     '<a href="https://www.canva.com/join/wqv-tdh-kty">Реєструйся на Canva</a>',
                     
                     '<a href="https://www.freelancer.com/u/podlom">Профіль Тараса Шкоденко на Freelancer.com</a>',
+                    
+                    '<a href="https://www.upwork.com/freelancers/~01e05248f10699bf9d">Профіль Тараса Шкоденко на Upwork.com</a>',
                      
                 ];
                 break;
@@ -213,6 +217,8 @@ class banner
                     '<a href="https://www.canva.com/join/wqv-tdh-kty">Регистрируйся на Canva</a>',
                     
                     '<a href="https://www.freelancer.com/u/podlom">Профиль Тараса Шкоденко на Freelancer.com</a>',
+                    
+                    '<a href="https://www.upwork.com/freelancers/~01e05248f10699bf9d">Профиль Тараса Шкоденко на Upwork.com</a>',
                     
                 ];
                 break;
