@@ -85,6 +85,8 @@ class banner
                     '<a href="https://r.lifecell.ua/RuCC" target="_blank">Join Lifecell</a>',
 
                     '<a href="https://www.canva.com/join/wqv-tdh-kty">Signup to Canva</a>',
+                    
+                    '<a href="https://www.freelancer.com/u/podlom">Check Taras Shkodenko profile at Freelancer.com</a>',
 
                 ];
                 break;
@@ -144,6 +146,9 @@ class banner
                     '<a href="https://r.lifecell.ua/RuCC" target="_blank">Підключайся до Lifecell</a>',
 
                     '<a href="https://www.canva.com/join/wqv-tdh-kty">Реєструйся на Canva</a>',
+                    
+                    '<a href="https://www.freelancer.com/u/podlom">Профіль Тараса Шкоденко на Freelancer.com</a>',
+                     
                 ];
                 break;
 
@@ -206,6 +211,9 @@ class banner
                     '<a href="https://r.lifecell.ua/RuCC" target="_blank">Подключайся к Lifecell</a>',
 
                     '<a href="https://www.canva.com/join/wqv-tdh-kty">Регистрируйся на Canva</a>',
+                    
+                    '<a href="https://www.freelancer.com/u/podlom">Профиль Тараса Шкоденко на Freelancer.com</a>',
+                    
                 ];
                 break;
         }
