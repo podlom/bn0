@@ -238,6 +238,12 @@ class banner
                 shuffle($banners);
                 $bannerHtml = $banners[0];
             }
+
+            // Витягуємо URL з тега <a href="...">
+            if (preg_match('/<a\s[^>]*href=[\'"]([^\'"]+)[\'"]/i', $bannerHtml, $matches91)) {
+                $this->logClick($matches91[1]);
+            }
+
             return $bannerHtml;
         }
 
