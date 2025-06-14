@@ -1,2 +1,6 @@
-# ignore phpStorm IDE settings folder
-.idea/*
+# ignore env
+.env
+# ignore vendor folder
+vendor/*
+# ignore composer.lock
+composer.lock
