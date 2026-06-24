@@ -7,7 +7,7 @@ declare(strict_types=1);
  * User: Тарас
  * Date: 20.12.2016
  * Time: 15:24
- * Updated: 2025-06-14 17:23
+ * Updated: 2026-06-24 22:43
  */
 
 namespace app;
@@ -106,7 +106,9 @@ class banner
 
                     '<a href="https://www.dropbox.com/referrals/AAAwlf2cgPWauEMztYtKtCeDZN0iS4Ib0ZI?src=global91">Download Dropbox for computer and get 500 MB</a>',
 
-                    '<a href="https://www.fiverr.com/pe/YRwPXVR">Join Fiverr - the best freelance platrorm</a>',
+                    '<a href="https://vidiq.com/TarasShkodenko/?utm_campaign=affiliate_onboarding&utm_content=welcome-affiliatelink-callout&utm_medium=email_action&utm_source=customer.io&utm_term=1641">Boost Your YouTube with vidIQ plan</a>',
+
+                    '<a href="https://streamyard.com/pal/c/5616490115039232">StreamYard simple instrument for professional streaming</a>',
 
                 ];
                 break;
@@ -171,9 +173,7 @@ class banner
                     
                     '<a href="https://www.upwork.com/freelancers/~01e05248f10699bf9d">Профіль Тараса Шкоденко на Upwork.com</a>',
 
-                    '<a href="https://www.dropbox.com/referrals/AAAwlf2cgPWauEMztYtKtCeDZN0iS4Ib0ZI?src=global91">Завантаж собі Dropbox для комп&apos;ютеру та отримай 500 МБ</a>','
-
-                    '<a href="https://www.fiverr.com/pe/YRwPXVR">Доєднуйся до Fiverr - найкраща платформа для фрілансу</a>',
+                    '<a href="https://www.dropbox.com/referrals/AAAwlf2cgPWauEMztYtKtCeDZN0iS4Ib0ZI?src=global91">Завантаж собі Dropbox для комп&apos;ютеру та отримай 500 МБ</a>',
                      
                 ];
                 break;
@@ -243,8 +243,6 @@ class banner
                     '<a href="https://www.upwork.com/freelancers/~01e05248f10699bf9d">Профиль Тараса Шкоденко на Upwork.com</a>',
 
                     '<a href="https://www.dropbox.com/referrals/AAAwlf2cgPWauEMztYtKtCeDZN0iS4Ib0ZI?src=global91">Загрузи себе Dropbox для компьютера и получи 500 МБ</a>',
-
-                    '<a href="https://www.fiverr.com/pe/YRwPXVR">Регистрируйся на Fiverr - лучшая платформа для фриланса</a>',
 
                 ];
                 break;
